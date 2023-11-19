@@ -1,0 +1,20 @@
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+body,html{
+height: 100%;
+width: 100%;
+}
+#header{
+    height:300px;
+    width: 100%;
+    background-color: rgb(18, 18, 59);
+    padding:80px 60px;
+}
+#mid{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(199, 5, 5);
+}
