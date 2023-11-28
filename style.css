@@ -18,29 +18,45 @@ width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: cyan;
 
 }
 #main{
     height: 100%;
     width: 100%;
-    background-color: brown;
 }
 #mid{
     height: 220px;
     width: 100%;
-    background-color: rgb(199, 5, 5);
     display: flex;
     align-items: center;
 }
 #top{
     height: 50px;
     width:100%;
-    background-color: yellow;
+    
+    display: flex;
 }
+#top>#left{
+    height: 100%;
+    width: 60%;
+    font-family:Arial, Helvetica, sans-serif ;
+    color:white;
+    padding:5px 20px;
+}
+#top>#right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+#top>#right>a{
+    color: rgba(255, 255, 255, 0.718);
+    text-decoration: none;
+}       
 #leftdiv>h4{
     font-family:Arial, Helvetica, sans-serif ;
     font-weight: 200;
+    color: rgba(255, 255, 255, 0.718);
 }
 #leftdiv>h1{
     font-size: 50px;
@@ -50,15 +66,13 @@ width: 100%;
 #leftdiv{
     height: 100%;
     width: 50%;
-    background-color: green;
-    color:white;
     padding: 20px;
 }
 #rightdiv{
     height: 100%;
     width: 50%;
     padding:20px;
-    background-color: blueviolet;
+    background-color: rgba(220, 200, 238, 0.363);
     display: flex;
     align-items: center;
     justify-content: center;
