@@ -11,7 +11,7 @@ width: 100%;
     height:500px;
     width: 100%;
     background-color: rgb(18, 18, 59);
-    padding:0px 80px 50px;
+    padding:0px 150px 50px;
 }
 #bottom{
     height:100%;
@@ -43,7 +43,7 @@ width: 100%;
     font-weight: 200;
 }
 #leftdiv>h1{
-    font-size: 60px;
+    font-size: 50px;
     font-family:Arial, Helvetica, sans-serif ;
     color: white;
 }
@@ -59,4 +59,10 @@ width: 100%;
     width: 50%;
     padding:20px;
     background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
 }
